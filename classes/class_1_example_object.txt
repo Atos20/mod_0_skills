@@ -5,12 +5,11 @@ attributes
 staff: 10
 toilette: true
 menu: ["breakfast" "lunch", "dinner"]
-price : 1.99
+price : 2
 
 methods
 
-requestTimeOff: 9
-makePurchase: true
-
-closeEarly: ["breakfast" "lunch"]
-buyOnegetTwo: (adds one extra item of the same item)
+requestTimeOff: staff: 9
+makePurchase: toilette: true
+closeEarly: ["breakfast", "lunch"]
+onSale: price: 1.99

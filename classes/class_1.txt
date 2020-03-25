@@ -7,8 +7,9 @@ toilette (boolean)
 menu (array)
 price (float)
 
+methods
 
 requestTimeOff: (removes 1 staff member)
 makePurchase: (gives access to toilette and sets toilette to true)
 closeEarly: (removes dinner from menu)
-buyOnegetTwo: (adds one extra item of the same item)
+onSale: (removes .1 from total price)

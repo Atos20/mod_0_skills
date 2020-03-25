@@ -10,9 +10,8 @@ seat: 15
 
 methods
 
-hire: 11
-drinkWine: true
-practiceAbstinence: false
-eatDessertOnly: ["dessert menu", "wine menu"]
-cancelBooking:
+hire: waiters: 11
+drinkWine:alcohol: true
+practiceAbstinence: alcohol: false
+eatDessertOnly:menu:  ["dessert menu", "wine menu"]
 makeReservation: 16
