@@ -1,0 +1,17 @@
+class : Fine Dining Restaurants
+
+attributes:
+
+waiters (integer)
+alcohol (boolean)
+menu (array)
+seat (integer)
+
+methods
+
+hire: (adds a one waiter to the team)
+drinkWine: (sets alcohol to true)
+practiceAbstinence: (sets alcohol to false)
+eatDessertAndWineOnly: (removes all menus except for dessert and wine menu)
+cancelBooking (removes one seat)
+makeReservation: (adds one seat)

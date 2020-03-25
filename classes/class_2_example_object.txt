@@ -1,0 +1,18 @@
+instance : Arcana Restaurant, Fine Dining.
+
+attributes:
+
+waiters: 10
+alcohol: true
+menu: ["wine menu", "appetizer menu", "entree menu", "dessert menu"]
+seat: 15
+
+
+methods
+
+hire: 11
+drinkWine: true
+practiceAbstinence: false
+eatDessertOnly: ["dessert menu", "wine menu"]
+cancelBooking:
+makeReservation: 16

@@ -1,0 +1,14 @@
+Class :Fast Food Restaurants
+
+attributes
+
+staff (integer)
+toilette (boolean)
+menu (array)
+price (float)
+
+
+requestTimeOff: (removes 1 staff member)
+makePurchase: (gives access to toilette and sets toilette to true)
+closeEarly: (removes dinner from menu)
+buyOnegetTwo: (adds one extra item of the same item)

@@ -1,0 +1,16 @@
+instance : McDonald's Restaurant
+
+attributes
+
+staff: 10
+toilette: true
+menu: ["breakfast" "lunch", "dinner"]
+price : 1.99
+
+methods
+
+requestTimeOff: 9
+makePurchase: true
+
+closeEarly: ["breakfast" "lunch"]
+buyOnegetTwo: (adds one extra item of the same item)
