@@ -1,16 +1,17 @@
-class : Fine Dining Restaurants
+class : Restaurant
 
 attributes:
 
-waiters (integer)
-alcohol (boolean)
-menu (array)
-seat (integer)
+waiter =(integer);
+purveyorDeliveries = (array);
+dinningRoomSeat = (integer);
+beerPrice = (float);
 
 methods
 
-hire: (adds a one waiter to the team)
-drinkWine: (sets alcohol to true)
-practiceAbstinence: (sets alcohol to false)
-eatDessertAndWineOnly: (removes all menus except for dessert and wine menu)
-makeReservation: (adds one seat)
+hireWaiter = (adds one waiter to the team)
+fireWaiter = (removes one waiter from the team)
+makeCake= (adds a new delivery to the purveyorDeliveries array)
+makeTableReservation = (removes four seats from the dinning room)
+cancelSingleReservation = (puts one seat back available to the dinning hall)
+couplesPromotions = (beer price is reduce by half)

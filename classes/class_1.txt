@@ -1,15 +1,16 @@
-Class :Fast Food Restaurants
+Class :Restaurant
 
 attributes
 
-staff (integer)
-toilette (boolean)
-menu (array)
-price (float)
+staff: (integer);
+foodDisplay: (boolean);
+breadSelections: (array);
+coffeePrice: (float);
 
 methods
 
 requestTimeOff: (removes 1 staff member)
-makePurchase: (gives access to toilette and sets toilette to true)
-closeEarly: (removes dinner from menu)
-onSale: (removes .1 from total price)
+missProduction: (there is no food to put on the display)
+makeProduction: (there is food to put on the display)
+bakeCookies: (adds a new element to the breadSelection array)
+discountCoffee: (removes .1 from total price)

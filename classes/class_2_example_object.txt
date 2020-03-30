@@ -1,17 +1,18 @@
-instance : Arcana Restaurant, Fine Dining.
+instance : OrlandosRestaurant
 
 attributes:
 
-waiters: 10
-alcohol: true
-menu: ["wine menu", "appetizer menu", "entree menu", "dessert menu"]
-seat: 15
+waiter = 10;
+purveyorDeliveries = ["dairy", "meat", "bread", "vegetables" ];
+dinningRoomSeat = 50;
+beerPrice = 9.99;
 
 
 methods
 
-hire: waiters: 11
-drinkWine:alcohol: true
-practiceAbstinence: alcohol: false
-eatDessertOnly:menu:  ["dessert menu", "wine menu"]
-makeReservation: 16
+hireWaiter: waiter = 11;
+fireWaiter: waiter = 9;
+makeCake: purveyorDeliveries = ["dairy", "meat", "bread", "vegetables", "chocolate" ];
+makeTableReservation: = 46;
+cancelSingleReservation: = 51;
+couplesPromotions: = 4.995;

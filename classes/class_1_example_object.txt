@@ -1,15 +1,16 @@
-instance : McDonald's Restaurant
+instance :BakeryCafe
 
 attributes
 
-staff: 10
-toilette: true
-menu: ["breakfast" "lunch", "dinner"]
-price : 2
+staff = 6;
+foodDisplay = true;
+breadSelections = ["croissant" "baguette", "pain au chocolat"];
+price = 2.0;
 
 methods
 
-requestTimeOff: staff: 9
-makePurchase: toilette: true
-closeEarly: ["breakfast", "lunch"]
-onSale: price: 1.99
+requestTimeOff: staff = 5;
+missProduction: foodDisplay = false;
+makeProduction: foodDisplay = true;
+bakeCookies: breadSelections = ["croissant", " baguette", "pain au chocolat", "cookies"]
+discountCoffee: = 1.99;
