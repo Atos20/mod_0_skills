@@ -32,7 +32,7 @@ console.log(movies);
 
 //Write a line of code that asks how many elements are in the array.
 var movies = ["cars", "toy story", "coco", "finding nemo", "pets"]
-var movieslength = movies.length;
+var totalMovies = movies.length;
   console.log(movieslength)
 //expected output: 5;
 //or
